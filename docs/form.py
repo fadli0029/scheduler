@@ -15,7 +15,3 @@ for line in form_data.split("\n"):
 # Write the form data to a table in a new markdown file
 with open("docs/table.md", "a") as f:
     f.write(f"| {name} | {age} |\n")
-
-# Redirect the user back to the form page
-print("Status: 303 See Other")
-print(f"Location: {os.environ['HTTP_REFERER']}")
