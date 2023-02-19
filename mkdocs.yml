@@ -7,7 +7,5 @@ nav:
     - Form: form.md
 plugins:
   - search
-  - pyscript:
-      scripts:
-        - docs/form.py
-
+  - scripts:
+    - docs/form.py
