@@ -5,7 +5,7 @@ theme:
 nav:
     - Home: index.md
     - Form: form.md
+hooks:
+  - docs/form.py
 plugins:
   - search
-  - scripts:
-    - docs/form.py
